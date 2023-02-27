@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.puntuation {
+    align-items: center;
+    display: flex;
+}
+
+.puntuation__name {
+    font-weight: bold;
+}
+
+.puntuation__game {
+    font-size: 10rem;
+    margin: 0 100px;
+}
+
+.game {
+    font-style: normal;
+    display: flex;
+    gap: 250px;
+}
+
+.game-choice{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.game-choice button {
+    padding: 10px 20px;
+}
