@@ -30,7 +30,8 @@ body {
 .game {
     font-style: normal;
     display: flex;
-    gap: 250px;
+    justify-content: space-between;
+    width: 20%;
 }
 
 .game-choice{
